@@ -18,7 +18,7 @@ Step 1: Perform a BLAST between FASTA sequences of your favorite BAHDs and the f
  ```     
 Step 2: Get the top BLAST hits for each query
 ```bash   
-   python gettop.py qSL24_dALL.blp
+   python blast_gettop.py qSL24_dALL.blp
  ```     
 Step 3: Assign hits to orthogroups based on BLAST results. Orthogroups.txt and species.list files are provided in this repository
 ```bash
