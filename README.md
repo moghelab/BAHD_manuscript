@@ -12,8 +12,11 @@
 Download all files in **RequiredFiles** folder as well as all provided scripts to your own working directory
 
 ## Usage
+
 Step 1: Perform a BLAST between FASTA sequences of your favorite BAHDs and the file labeled all_BAHDs.fa
+Note you will need to format the database file beforehand
 ```bash   
+   (OPTIONAL) formatdb -i all_BAHDs.fa -p T
    blastall -i sl_bahd_24.fa -d all_BAHDs.fa -m 8 -e 1e-10 -a 20 -o qSL24_dALL.blp -p blastp
  ```     
 Step 2: Get the top BLAST hits for each query
