@@ -3,11 +3,13 @@
  Scripts used in the BAHD manuscript
 
 ## Requirements
-Python 3.6+
-Unix
-BLAST
+-- Python 3.6+
 
-Download all files in **RequiredFiles** folder to your own working directory
+-- Unix
+
+-- BLAST
+
+Download all files in **RequiredFiles** folder as well as all provided scripts to your own working directory
 
 ## Usage
 Step 1: Perform a BLAST between FASTA sequences of your favorite BAHDs and the file labeled all_BAHDs.fa
