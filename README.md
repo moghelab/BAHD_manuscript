@@ -1,7 +1,15 @@
 # BAHD_manuscript
+
  Scripts used in the BAHD manuscript
 
-Usage
+## Requirements
+Python 3.6+
+Unix
+BLAST
+
+Download all files in **RequiredFiles** folder to your own working directory
+
+## Usage
 Step 1: Perform a BLAST between FASTA sequences of your favorite BAHDs and the file labeled all_BAHDs.fa
 ```bash   
    blastall -i sl_bahd_24.fa -d all_BAHDs.fa -m 8 -e 1e-10 -a 20 -o qSL24_dALL.blp -p blastp
